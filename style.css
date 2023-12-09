@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Pacifico&family=Russo+One&display=swap');
+
+
+
+* {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+body{
+    background: red;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: skyblue;
+    position: absolute;
+    left: 50%;
+    margin-left: -158px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background: black;
+    padding: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+.content {
+    min-height: 100vh;
+    flex: 1 1 auto;
+    background-color: #f2f2f2;
+    color: #111;
+    padding: 0 10vw;
+}
+.content_name {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin: 30px;
+    margin-left: 100px;
+}
+
+.content_posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content_post {
+    width: 400px;
+    background: thistle;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.post_img {
+    width: 100px;
+    height: 100px;
+    background: url("picture.jpg") center;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.post_name {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.post_text {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: 16px;
+}
